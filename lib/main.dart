@@ -7,7 +7,7 @@ class XylophoneApp extends StatelessWidget {
   void playit(int num) {
     final player = AudioPlayer();
 
-    player.play(AssetSource('$num.wav'));
+    player.play(AssetSource("$note",style: TextStyle(color: Colors.black));
     // will immediately start playing
   }
 
